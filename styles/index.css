@@ -39,10 +39,9 @@ z-index: 999999;
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Caveat');
-#about {
-  font-family: 'Caveat', cursive;
-  display:inline;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+p {
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
