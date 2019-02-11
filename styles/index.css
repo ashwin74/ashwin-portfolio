@@ -39,6 +39,12 @@ z-index: 999999;
   }
 }
 
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+#about {
+  font-family: 'Caveat', cursive;
+  display:inline;
+}
+
 html {
     overflow: scroll;
     overflow-x: hidden;
