@@ -4,7 +4,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: #ff9800;
+background-color: pink;
 z-index: 999999;
 }
 
@@ -64,4 +64,42 @@ html {
   margin-top: 15px;
   margin-left: 15px;
   margin-bottom: 20px;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  font-size: 22px;
+  width: 55px;
+  height: 55px;
+  background: #bb0e49;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }

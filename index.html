@@ -26,6 +26,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/png" href="images/logo.png">
   <title>Ashwin | Computer Science Engineer</title>
+  <script src="js/typed.js"></script>
 </head>
 <body>
 
@@ -36,38 +37,47 @@
 
   <div>
     <nav>
-      <div class="nav-wrapper orange">
+      <div class="nav-wrapper pink">
         <img src="images/logo.png" width="50px" alt="Logo" class="brand-logo center hide-on-med-and-up">
-        <a href="#!" id="top" class="brand-logo center hide-on-small-only">Ashwin Portfolio</a>
+        <a href="#!" class="brand-logo center hide-on-small-only">Ashwin Portfolio</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="index.html" class="btn white black-text waves-effect waves-orange">About</a></li>
-          <li><a href="work.html" class="btn white black-text waves-effect waves-orange">Work</a></li>
-          <li><a href="project.html" class="btn white black-text waves-effect waves-orange">Projects</a></li>
+          <li><a href="index.html" class="btn white black-text waves-effect waves-purple">About</a></li>
+          <li><a href="work.html" class="btn white black-text waves-effect waves-purple">Work</a></li>
+          <li><a href="project.html" class="btn white black-text waves-effect waves-purple">Projects</a></li>
         </ul>
       </div>
     </nav>
     <ul class="sidenav" id="mobile-demo">
       <li><img src="images/intro.jpg" class="responsive-img center"  alt="Ashwin"></li>
-      <li><a href="index.html" class="grey lighten-4 center waves-effect waves-orange">About</a></li>
-      <li><a href="work.html" class="grey lighten-4 center waves-effect waves-orange">Work</a></li>
-      <li><a href="project.html" class="grey lighten-4 center waves-effect waves-orange">Projects</a></li>
-      <li><a target="_blank" class="grey lighten-4 center waves-effect waves-orange" href="Ashwin_Resume.pdf">Resume</a></li>
-      <li style="margin-bottom:25px;"><a target="_blank" class="grey lighten-4 center waves-effect waves-orange" href="https://www.linkedin.com/in/ashwin74/">LinkedIn</a></li>
+      <li><a href="index.html" class="grey lighten-4 center waves-effect waves-purple">About</a></li>
+      <li><a href="work.html" class="grey lighten-4 center waves-effect waves-purple">Work</a></li>
+      <li><a href="project.html" class="grey lighten-4 center waves-effect waves-purple">Projects</a></li>
+      <li><a target="_blank" class="grey lighten-4 center waves-effect waves-purple" href="Ashwin_Resume.pdf">Resume</a></li>
+      <li style="margin-bottom:25px;"><a target="_blank" class="grey lighten-4 center waves-effect waves-purple" href="https://www.linkedin.com/in/ashwin74/">LinkedIn</a></li>
     </ul>
   </div>
-
 
   <div class="container">
     <div class="col s12 m7">
       <h3 class="header center-align" style="font-family: 'Bungee', cursive;">ASHWIN P</h3>
+
+      <div id="typed-strings">
+        <p>Hello</p>
+        <p>Namaste</p>
+        <p>Hola</p>
+        <p>Bonjour</p>
+        <p>Marhaba</p>
+      </div>
+      <p style="font-size:35px;"class="center"><span id="typed"></span> <i class="em em-raised_hand_with_fingers_splayed"></i><p>
+
       <div id="intro" class="card horizontal">
         <div class="card-image hide-on-med-and-down">
             <img src="images/intro.jpg">
         </div>
         <div class="card-stacked">
           <div class="card-content">
-            <p class="flow-text" id="about">Hi myself Ashwin <i class="em em-male-technologist"></i>, I am a <b>THINKER <i class="em em-thinking_face"></i> LEARNER <i class="em em-male-student"></i> AND CREATOR <i class="em em-building_construction"></i></b>. I build Web Applications <i class="em em-computer"></i> using Standard Software Engineering Principles. Feel free to look <i class="em em-face_with_monocle"></i> at my Projects and Work from the NavBar <i class="em em-point_up"></i>. Here <i class="em em-point_down"></i> I present you little bit of Myself <i class="em em-man-gesturing-ok"></i>. Contact <i class="em em-email"></i> me to Know More!<p>
+            <p class="flow-text" id="about">Myself Ashwin <i class="em em-male-technologist"></i> I am a <b>THINKER <i class="em em-thinking_face"></i> LEARNER <i class="em em-male-student"></i> AND CREATOR <i class="em em-building_construction"></i></b> I build Web Applications <i class="em em-computer"></i> using Standard Software Engineering Principles. Feel free to look <i class="em em-face_with_monocle"></i> at my Projects and Work from the NavBar <i class="em em-point_up"></i>. Here <i class="em em-point_down"></i> I present you little bit of Myself <i class="em em-man-gesturing-ok"></i>. Contact <i class="em em-email"></i> me to Know More!<p>
           </div>
         </div>
       </div>
@@ -110,8 +120,8 @@
             <span class="card-title">Blogging</span>
               <p>I Like to write <i class="em em-lower_left_ballpoint_pen"></i> Technical Blogs on Medium and I also read a lot of content on Medium, I have written about "Learning to Code", "Working with Git" and continue to write more about Blockchain, Software Development Process <i class="em em-robot_face"></i> and all those Buzzwords and my Experiences.</p>
           </div>
-          <div class="card-action">
-            <a target="_blank" href="https://medium.com/@ashwin7411">Read more on Medium</a>
+          <div class="card-action pink">
+            <a class="white-text" target="_blank" href="https://medium.com/@ashwin7411">Read more on Medium</a>
           </div>
         </div>
 
@@ -120,8 +130,8 @@
             <span class="card-title">Problem Solving</span>
               <p>I also like to solve real life coding problems on HackerRank. Here I have Solved more than 200 Algorithmic Problems making me Proud owner of various Badges <i class="em em-medal"></i></p>
           </div>
-          <div class="card-action">
-            <a target="_blank" href="https://www.hackerrank.com/ashwin7411">Look at my HackerRank Profile</a>
+          <div class="card-action pink">
+            <a class="white-text" target="_blank" href="https://www.hackerrank.com/ashwin7411">Look at my HackerRank Profile</a>
           </div>
         </div>
 
@@ -130,8 +140,8 @@
             <span class="card-title">Open Source</span>
               <p>I am also an Open Source Enthusiast, I Contribute to Repositories which interests me and whose Mission resonates with Mine. I have also participated in Open source events like Hacktoberfest and winning goodies <i class="em em-gift"></i> for that.</p>
           </div>
-          <div class="card-action">
-            <a target="_blank" href="https://github.com/ashwin74">Contribution on Github</a>
+          <div class="card-action pink">
+            <a class="white-text" target="_blank" href="https://github.com/ashwin74">Contribution on Github</a>
           </div>
         </div>
     </div>
@@ -154,7 +164,7 @@
   </div>
 
   <div class="fixed-action-btn">
-    <a class="btn-floating btn-large orange darken-3"><i class="fas fa-envelope"></i></a>
+    <a class="btn-floating btn-large pink darken-3"><i class="fas fa-envelope"></i></a>
     <ul>
       <li><a target="_blank" href="mailto:ashwin7411@gmail.com"class="btn-floating tooltipped red" data-position="left" data-tooltip="Email Me"><i class="fas fa-at"></i></a></li>
       <li><a target="_blank" href="https://github.com/ashwin74"class="btn-floating tooltipped black" data-position="left" data-tooltip="Github"><i class="fab fa-github-square"></i></a></li>
@@ -166,19 +176,20 @@
     </ul>
   </div>
 
-
-  <footer class="page-footer orange">
+  <footer class="page-footer pink">
     <div class="container row">
           <div class="col s12 center">
             <p class="grey-text text-lighten-4 flow-text">"Don't Settle For Mediocrity" - Ashwin</p>
           </div>
-      </div>
-      <div class="footer-copyright black">
+    </div>
+    <div class="footer-copyright black">
         <div class="container center">
           <i class="fas fa-code"></i> with ❤️ by Ashwin For 2019
         </div>
-      </div>
+    </div>
   </footer>
+
+  <button type="button" id="topBtn" name="button"><i class="fas fa-arrow-up"></i></button>
 
   <!--JavaScript at end of body for optimized loading-->
   <script

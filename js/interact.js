@@ -10,6 +10,17 @@ hidePreloader();
 });
 });
 
+//Type Effect
+$(document).ready(function(){
+  var typed = new Typed('#typed',{
+  stringsElement: '#typed-strings',
+  backSpeed: 70,
+  typeSpeed: 70,
+  loop: true,
+  shuffle: true
+  });
+})
+
 //SideNav
 var elem = document.querySelector('.sidenav');
 var instance = M.Sidenav.init(elem, {
@@ -35,3 +46,18 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.materialboxed').materialbox();
   });
+
+//Scroll Top
+$(document).ready(function(){
+
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 40){
+      $('#topBtn').fadeIn();
+    } else{
+      $('#topBtn').fadeOut();
+    }
+  });
+  $("#topBtn").click(function(){
+    $('html, body').animate({scrollTop : 0},100);
+  });
+});
